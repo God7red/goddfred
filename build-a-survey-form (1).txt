@@ -1,0 +1,98 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking your time to take this survey</p>
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+      Name
+    </label>
+    <input id="name" type="text" placeholder="name"  required></input>
+
+  </div>
+
+ <div class="input-element">
+    <label id="email-label">
+      Email
+    </label>
+    <input id="email" type="email" placeholder="email" required></input>
+
+  </div>
+   <div class="input-element">
+    <label id="number-label">
+      Age
+    </label>
+    <input id="number" type="number" min="5" max="100" placeholder="5" required></input>
+
+  </div>
+   </div>
+   <div class="input-element">
+    <label id="select-label">
+      How did you hear about us?
+    </label>
+    <select id="dropdown">
+      <option>Social media</option>
+      <option>A friend</option>
+      <option>TV advertisement</option>
+      <option>Posters</option>
+    </select>
+ </div>
+ <div>
+ <div>
+ <label>
+   Are you satisfied with our customer service?
+ </label>
+ </div>
+ <div>
+ <label>
+ <input type="radio" name="customer" value="yes">Yes</input>
+ </label>
+ </div>
+ <div>
+ <label><input type="radio" name="customer" value="no">No</input></label>
+ </div>
+ </div>
+ <div>
+   <label>How will you rate our customer service</label>
+   <div>
+   <label><input type="checkbox" name="suggestions" value="good"></input>Good</label>
+   </div>
+   <div>
+     <label><input type="checkbox" name="suggestions" value="bad"></input>Bad</label>
+   </div>
+   </div>
+   <div>
+     <label>Additional comments</label>
+     <textarea type="text"></textarea>
+   </div>
+   <input type="submit" id="submit"></input>
+
+  </form >
+
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: lightblue; 
+  text-align: center;
+}
+form{
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.input-elements{
+  margin: 10px;
+}
+h1{
+  
+}
+
+** end of undefined **
+
